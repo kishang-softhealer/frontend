@@ -1,0 +1,219 @@
+/* Nav bar */
+.navbar {
+    background-color: #000;
+    width: 100%;
+    padding: 20px;
+    position: fixed;
+    margin: 0;
+
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    list-style-type: none;                                                                                              
+}
+
+.menu li a {
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Banner */
+.banner {
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+
+.banner-content {
+    color: black;
+}
+
+.banner-content h1 {
+    font-size: 2em;
+}
+
+.banner-content p {
+    font-size: 1.2em;
+}
+
+.banner-content button {
+    background-color: #000;
+    color: white;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    text-align: center;
+
+}
+
+/* content1 button */
+button {
+    border-top: 1px solid red;
+    border-right: 1px dotted green;
+    border-bottom: 1px dashed blue;
+    border-left: 1px double black;
+    margin: 30px;
+}
+
+/* content2 */
+.element-style {
+    padding: 50px;
+    margin: 20px;
+    border: 2px solid black;
+    outline: 5px solid gray;
+    background: linear-gradient(to right, black, lightgray);
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 2px white;
+}
+
+/* content3 */
+a.text-link {
+    color: gray;
+    text-decoration: underline;
+}
+
+a.text-link:hover {
+    color: #0000;
+    text-decoration: none;
+}
+
+a.text-link:focus {
+    color: green;
+}
+
+/* content4 */
+.square-style {
+    list-style: square;
+}
+
+/* content5 */
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 50%;
+}
+
+tr td {
+    border: 1px solid white;
+}
+
+thead th {
+    background-color: #000;
+    color: white;
+    position: sticky;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #cccccc;
+}
+
+tbody tr:nth-child(even) {
+    background-color: white;
+}
+
+tbody tr:hover {
+    background-color: #888888;
+}
+
+/* content6 */
+
+.p1 {
+    background-color: rgb(0, 255, 0);
+    opacity: 1;
+}
+
+.p2 {
+    background-color: rgb(0, 255, 0);
+    opacity: .75;
+}
+
+.p3 {
+    background-color: rgb(0, 255, 0);
+    opacity: .5;
+}
+
+.p4 {
+    background-color: rgb(0, 255, 0);
+    opacity: .25;
+}
+
+/* content7 */
+.flex-container {
+    background-color: #f1f1f1;
+    height: 150px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.box1 {
+    display: inline;
+    background-color: dodgerblue;
+    height: 150px;
+    width: 5%;
+
+}
+
+.box2 {
+    display: inline;
+    background-color: dodgerblue;
+    height: 50px;
+     width: 5%;
+     align-self: flex-start;
+}
+
+.box3 {
+    display: inline;
+    background-color: dodgerblue;
+    height: 50px;
+     width: 5%;
+     align-self: center;
+}
+
+.box4 {
+    display: inline;
+    background-color: dodgerblue;
+    height: 50px;
+     width: 5%;
+     align-self: flex-end;
+}
+
+/* content8 */
+.breadcrumb{
+    background-color: #f1f1f1;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.breadcrumb li{
+    list-style: none;
+    padding: 10px;
+}
+.breadcrumb li a{
+    color: green;
+}
+.breadcrumb li a.active{
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+}
+.breadcrumb li+li::before{
+    content: "/";
+    color: #000;
+    font-weight: bold;
+    margin: 10px;
+}
+
